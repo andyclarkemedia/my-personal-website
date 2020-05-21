@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.project-element-wrapper {
+	position: absolute;
+}
+
+.project-element {
+	width: 60vw;
+}
+
+.project-inner-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	color: #f2f2f2;
+}
+
+.project-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.project-button {
+	width: 100%;
+	height: auto;
+	padding: 1em;
+	background-color: transparent;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.3em;
+	color: #f2f2f2;
+	font-weight: 900;
+	border: .1em solid #f2f2f2;
+	cursor: pointer;
+	margin-bottom: 2em;
+}
+
+.project-button:hover {
+	color: black;
+	border: .1em solid black;
+	background-color: #f2f2f2;
+}
+
+
+#project-element2 {
+	display: none;
+}
+
+#project-element3 {
+	display: none;
+}
+
+
+.project-title {
+	font-size: 2.5em;
+	letter-spacing: .1em;
+}
+
+
+.project-subtitle {
+	font-size: 1em;
+	letter-spacing: .2em;
+}
+
+
+.project-description {
+	margin: 2em 4em;
+}
+
+
+
+

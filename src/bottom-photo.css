@@ -1,0 +1,12 @@
+
+.bottom-photo {
+	position: relative;
+	height: 40vh;
+	width: 100vw;
+	background-image: url("../images/bottom-photo.png");
+	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+  	background-attachment: fixed;
+  	z-index: -10;
+}

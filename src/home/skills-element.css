@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+.skill-element {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5em;
+	height: 5em;
+	font-family: 'Inconsolata', monospace;
+	flex-wrap: wrap;
+	margin: 1em;
+	text-align: center;
+	padding: 4em;
+}
+
+.skill-text {
+	font-size: 1.3em;
+	letter-spacing: .2em;
+	color:  #EEE2DC;
+	font-weight: 100;
+	padding: 0 5em;
+
+}

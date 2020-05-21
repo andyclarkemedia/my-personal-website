@@ -1,0 +1,63 @@
+
+
+.skills-list {
+	margin: 5vh 10vw;
+	width: 80vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 5vh 0;
+}
+
+.skill-element-expert {
+	background-color: #24305E;
+}
+
+.skill-element-novice {
+	background-color: black;
+}
+
+.skill-element-novice-key {
+	background-color: black;
+	padding: .5em;
+	margin: 2em !important;
+	font-size: 1.3em;
+}
+
+.skill-element-expert-key {
+	background-color: #24305E;
+	padding: .5em;
+	margin: 2em !important;
+	font-size: 1.3em;
+}
+
+.left {
+	text-align: left;
+	margin-left: 2vw;
+}
+
+.right {
+	text-align: right;
+	margin-right: 2vw;
+}
+
+.skill-container {
+	
+}
+
+.skills-subtitle {
+	font-size: 1.5em;
+	font-weight: 400;
+	letter-spacing: .5em;
+}
+
+.skills-top-title {
+	align-self: center;
+	font-size: 2.5em;
+	font-weight: 100;
+	letter-spacing: .2em;
+	text-align: center;
+	padding-top: 20vh;
+	
+}

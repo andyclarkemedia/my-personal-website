@@ -1,0 +1,14 @@
+
+.dot-element {
+	z-index: 1000;
+	border-radius: 50%;
+	background-color: #282828;
+	width: 4em;
+	height: 4em;
+	cursor: pointer;
+	opacity: .4;
+}
+
+#dot-1 {
+	opacity: .8;
+}

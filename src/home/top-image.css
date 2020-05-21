@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.top-wrapper {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-image: url("../images/cover_photo_option_two.jpg");
+	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+  	background-attachment: fixed;
+  	font-family: 'Inconsolata', monospace;
+  	will-change: transform;
+  	overflow: hidden;
+  	
+}
+
+.top-image {
+	width: 100vw;
+	
+
+}
+
+.heading-text {
+	color: #eae7dc;
+	position: absolute;
+	right: 10vw;
+	font-weight: 100;
+	letter-spacing: .4em;
+	top: 20vh;
+	font-size: 5em;
+}
+
+
+.sub-heading-text {
+	color: #eae7dc;
+	position: absolute;
+	right: 10vw;
+	font-weight: 400;
+	letter-spacing: .4em;
+	top: 45vh;
+	font-size: 2em;
+}
+

@@ -1,0 +1,14 @@
+
+
+.middle-image {
+	position: relative;
+	height: 60vh;
+	width: 100vw;
+	background-image: url("../images/mid-photo.jpg");
+	background-position: center; /* Center the image */
+ 	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+ 	background-attachment: fixed;
+  	z-index: -10;
+  	will-change: transform;
+}
